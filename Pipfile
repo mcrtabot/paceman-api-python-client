@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+pydantic = "*"
+urllib3 = "*"
+
+[dev-packages]
+ruff = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.8"
